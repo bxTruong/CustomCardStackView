@@ -485,16 +485,6 @@ public class CardStackLayoutManager
         Direction direction = state.getDirection();
         float alpha = setting.overlayInterpolator.getInterpolation(state.getRatio());
         switch (direction) {
-            case Left:
-                if (leftOverlay != null) {
-                    leftOverlay.setAlpha(alpha);
-                }
-                break;
-            case Right:
-                if (rightOverlay != null) {
-                    rightOverlay.setAlpha(alpha);
-                }
-                break;
             case Top:
                 if (topOverlay != null) {
                     topOverlay.setAlpha(alpha);
