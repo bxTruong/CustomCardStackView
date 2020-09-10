@@ -487,12 +487,12 @@ public class CardStackLayoutManager
         switch (direction) {
             case Left:
                 if (leftOverlay != null) {
-                    leftOverlay.setAlpha(0.0f);
+                    leftOverlay.setAlpha(1f);
                 }
                 break;
             case Right:
                 if (rightOverlay != null) {
-                    rightOverlay.setAlpha(0.0f);
+                    rightOverlay.setAlpha(1f);
                 }
                 break;
             case Top:
